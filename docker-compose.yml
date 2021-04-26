@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  dna-analyzer:
+    build: .
+    ports:
+      - "8080:8080"
