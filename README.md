@@ -1,6 +1,6 @@
 # DNA analyzer
 Sistema para análise de DNA, indicando se a espécie é _Humana_ ou _Símia_.
-A aplicação foi desenvolvida utilizando os recursos da JDK do *Java 16*, o framework *Spring Boot* 2.4.5, e o banco de dados *H2 Embedded*.
+A aplicação foi desenvolvida utilizando os recursos da JDK do *Java 16*, o framework *Spring Boot* 2.4.5, e o banco de dados em memória *H2 Embedded*.
 
 ## Requisitos
 - [PDF com os requisitos do sistema](code-challenge-documentation.pdf)
