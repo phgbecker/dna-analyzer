@@ -13,18 +13,18 @@ A aplicação foi desenvolvida utilizando os recursos da JDK do *Java 16*, o fra
 ```
 ## Como executar a aplicação no ambiente produtivo?
 - Para execução no ambiente produtivo, acessar os endereços:
-    - https://dna-analyzer-t72wqommmq-uc.a.run.app
-        - [/rest/health-check](https://dna-analyzer-t72wqommmq-uc.a.run.app/rest/health-check)
-        - [/rest/dna/simian](https://dna-analyzer-t72wqommmq-uc.a.run.app/rest/dna/simian)
-        - [/rest/dna/stats](https://dna-analyzer-t72wqommmq-uc.a.run.app/rest/dna/stats)
+    - http://localhost:8080
+        - [/rest/health-check](http://localhost:8080/rest/health-check)
+        - [/rest/dna/simian](http://localhost:8080/rest/dna/simian)
+        - [/rest/dna/stats](http://localhost:8080/rest/dna/stats)
     
 ## APIs REST expostas pela aplicação
 - Health check
     - GET
-        - [/rest/health-check](https://dna-analyzer-t72wqommmq-uc.a.run.app/rest/health-check)
+        - [/rest/health-check](http://localhost:8080/rest/health-check)
 - Análise de DNA
     - POST
-        - [/rest/dna/simian](https://dna-analyzer-t72wqommmq-uc.a.run.app/rest/dna/simian)
+        - [/rest/dna/simian](http://localhost:8080/rest/dna/simian)
         - Conteúdo para envio
         ```
           Content-type: application/json
@@ -41,4 +41,4 @@ A aplicação foi desenvolvida utilizando os recursos da JDK do *Java 16*, o fra
       ```
 - Estatística das análises processadas
     - GET
-        - [/rest/dna/stats](https://dna-analyzer-t72wqommmq-uc.a.run.app/rest/dna/stats)
+        - [/rest/dna/stats](http://localhost:8080/rest/dna/stats)
